@@ -14,7 +14,7 @@ spec:
                 operator: In 
                 values:
                   - us-east-1c 
-      prefferedDuringSchedulingIgnoredDuringExection:
+      preferedDuringSchedulingIgnoredDuringExecution:
         - weight: 100
           preference:
             - matchExpressions:
