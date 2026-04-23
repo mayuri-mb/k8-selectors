@@ -7,12 +7,12 @@ metadata:
 spec: 
   affinity:
     nodeAffinity:
-      #HardRule
+      #Hard rule
       requiredDuringSchedulingIgnoredDuringExecution:
         nodeSelectorTerms:
           - matchExpressions:
             - key: topology.kubernetes.io/zone 
-              operator: In 
+              operator: NotIn 
               values:
                 - us-east-1d 
   containers:
