@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod 
 metadata:
-  name: DB
+  name: db
   labels:
     tier: database
 spec:
